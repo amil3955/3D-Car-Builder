@@ -115,7 +115,7 @@ const Wheels = memo(({ rim, rim_diameter, rim_width, rim_color, rim_color_second
     )
 })
 
-// Body.
+//Vehicle Body.
 const Body = memo(({ id, height, color, roughness, addons, setVehicle }) => {
     const vehicle = useRef()
     const { setObjectMaterials } = useMaterialProperties()

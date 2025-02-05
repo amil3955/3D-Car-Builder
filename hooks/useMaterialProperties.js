@@ -9,7 +9,7 @@ const COLORS = {
     BLACK: new Color(0.025, 0.025, 0.025),
 }
 
-// Set vehicle materials.
+// Set vehicle material.
 const setMaterials = (material, color, roughness, rim_color, rim_color_secondary) => {
     // Switch material name.
     switch (material.name) {

@@ -8,6 +8,7 @@ const EditorSection = (props) => {
   }
 
   return (
+    // Section
     <div className={'section' + (isActive ? ' active' : '')}>
       <div className="section-header" onClick={toggleActive}>
         {props.icon}

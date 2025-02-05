@@ -27,7 +27,7 @@ export default function Screenshot() {
     }, [gl, scene, camera, size])
 
 
-    // Listen for screenshot event.
+    // Listen for screenshot.
     useEffect(() => {
         window.addEventListener('takeScreenshot', takeScreenshot)
         return () => window.removeEventListener('takeScreenshot', takeScreenshot)

@@ -17,7 +17,6 @@ const VehicleTitle = ({ savedVehicles, setSavedVehicles, setVehicle }) => {
         setShowDropdown(false)
     }
 
-    // Check if we have saved vehicles.
     const savedVehicleCount = Object.keys(savedVehicles).filter((key) => key !== 'current')
 
     // Set title.

@@ -29,7 +29,7 @@ const useAnimateHeight = (elementRef, targetHeight, startHeight) => {
         // Get current height.
         const currentHeight = MathUtils.lerp(animation.current.initialHeight, animation.current.targetHeight, easedProgress)
 
-        // Update element position.
+        // Update element.
         elementRef.current.position.y = currentHeight
     })
 }

@@ -10,7 +10,7 @@ import ToolIcon from '../assets/images/icons/Tool.svg'
 import GearIcon from '../assets/images/icons/Gear.svg'
 
 function Editor(props) {
-    // Get props.
+  
     const { isActive, currentVehicle = { id: null }, setVehicle, cameraAutoRotate, setCameraAutoRotate } = props
 
     // Check if current vehicle has addons.

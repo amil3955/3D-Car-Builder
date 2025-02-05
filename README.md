@@ -1,8 +1,6 @@
-# 4x4Builder.com 🚙
+# 3D Car Builder
 
-![4x4 Builder Screenshot](assets/images/screenshot.png)
-
-4x4Builder.com is an online 3D application that allows users to construct their ideal 4x4 vehicle in the browser. Whether you're a car enthusiast or just someone who enjoys exploring the world of 3D, 4x4 Builder provides an interactive and immersive experience for building your dream off-road vehicle.
+This is an online 3D application that allows users to construct their ideal vehicle in the browser. Whether you're a car enthusiast or just someone who enjoys exploring the world of 3D, Car Builder provides an interactive and immersive experience for building your dream off-road vehicle.
 
 ## Tech Stack 🛠️
 
@@ -20,11 +18,11 @@
 
 ## Quick Setup ⚙️
 
-To get started with 4x4 Builder, follow these steps:
+To get started with vehicle Builder, follow these steps:
 
 1. Clone the repository:
 
-`git clone https://github.com/theshanergy/4x4builder.git`
+`git clone https://github.com/amil3955/3D-Car-Builder.git`
 
 2. Change directory to the project folder:
 
